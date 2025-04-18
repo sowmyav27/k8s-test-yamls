@@ -36,3 +36,6 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 5678
+
+#kubectl run curl --rm -it --image=busybox -- /bin/sh
+# Inside the pod: wget -qO- test-echo-service
